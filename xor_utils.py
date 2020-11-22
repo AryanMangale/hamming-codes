@@ -11,4 +11,4 @@ def xor_many(bit_array):
         bit_val = bit_array[i]
         another_temp = xor(temp, bit_val)
         temp = another_temp
-    return temp
+    return int(temp)

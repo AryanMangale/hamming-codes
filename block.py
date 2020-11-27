@@ -21,3 +21,10 @@ def create_block(data):
     block = bit0+bit1+bit2+data[:1]+bit4+data[1:4]+bit8+data[4:7]+data[7:]
 
     return block
+
+
+
+def test():
+    d = "11010010111"
+    block = create_block(d)
+    return block
